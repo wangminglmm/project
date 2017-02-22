@@ -1,0 +1,40 @@
+
+/*banner开始*/
+.banner{ width:100%; position:relative; height:520px; overflow:hidden;}
+.banner ul{ list-style:none; position:relative; margin:0 auto; width:100%;}
+.banner ul li{ position:absolute; left:50%; margin-left:-960px;}
+.banner ul li a{ display:block; width:100%; height:520px;}
+.banner ol{ position:absolute; right:0; bottom:5px;}
+.banner ol li{ float:left; width:14px; height:14px; background:url(../images/banner-active.png); margin-right:5px; cursor: pointer; border-radius: 50%;}
+.banner ol li.active{ background:url(../images/banner-active.png) left bottom; }
+
+/*main开始*/
+.main .notice{ height:90px; padding-top:20px; border-bottom:1px solid #CCCCCC;}
+.main .notice ul{ margin-left:-28px;}
+.main .notice ul li{ width:312px; float:left; margin-left:28px;}
+.main .notice ul li h2{ height:28px;}
+.main .notice ul li h2 a{ font:bold 16px/28px "宋体"; color:#3385FF;}
+.main .notice ul li h2 a:hover{ text-decoration:underline;}
+.main .notice ul li p{ font:12px/16px "宋体";}
+
+.main-logo{ height:155px; border-bottom:1px solid #CCCCCC; padding-top:28px; margin-bottom:15px;}
+.main-logo .left{ float:left; width:500px;}
+.main-logo .left p{ font:21px/34px "宋体"; color:#000;}
+.main-logo .left p strong{ color:#317EF3; font-weight:bold;}
+.main-logo .left h4{ padding-top:9px;}
+.main-logo .left h4 a{ font:12px/23px "宋体"; color:#7F7F7F; background:#EEEEEE; padding:0 15px; display:inline-block;}
+.main-logo .left h4 a:hover{ background:#317EF3; color:#fff;}
+.main-logo .right{ float:right; margin-top:7px;}
+
+.main .content ul{ margin-left:-20px;}
+.main .content ul li{ padding:9px; border:1px solid #D9D9D9; float:left; width:300px; margin:0 0 20px 20px;}
+.main .content dt{ margin-bottom:6px;}
+.main .content dd h3{ font:14px/26px "微软雅黑"; color:#317EF3;}
+.main .content dd h3 a{ color:#317EF3; font-weight:bold;}
+.main .content dd h3 a:hover{ text-decoration:underline;}
+.main .content dd p{ font-size:12px; line-height:20px;}
+
+.main .bottom .why{ height:81px;}
+.main .bottom .more{ height:50px; line-height:50px; border-bottom:1px solid #CCCCCC;}
+.main .bottom .more a{ display:inline-block; color:#7F7F7F; font-size:12px; margin-right:25px;}
+.main .bottom .more a:hover{ color:#317EF3; text-decoration:underline;}

@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+.main-l{ width: 500px; float:left;}
+.main-l-bd{ border:1px solid #E1E0DC;}
+.main-l-bd h2{ height: 55px; line-height: 55px; font-size:18px; font-family:'微软雅黑'; padding-left: 28px; color:#333333; margin-bottom: 10px;}
+.main-l-bd ul li{ height: 24px; line-height: 24px; padding:0 20px 0 28px; background:url(../images/ul-02-li.png) no-repeat 20px center;}
+.main-l-bd ul li span{ float:right; color:#878787;}
+.main-l-bd .page{ height: 31px; padding-top: 14px; text-align: center; color:#333333;}
+.main-l-bd .page a{ border: 1px solid #311e00; padding:3px 5px; margin:0 3px; background:#fff; text-decoration: none;}
+.main-l-bd .page a:hover{ background:#FF0000; color:#fff;}
+
+.main-m{ width: 160px; float:left; margin-left: 10px;}
+.main-m-bd{ border: 1px solid #E1E0DC; background:#F6F6F6; padding:11px 0 0 11px;}
+.main-m-bd li{ width: 136px; height: 137px; text-align: center;}
+.main-m-bd li img{ padding:2px; border: 1px solid #D1D1D1;}
+.main-m-bd li a{ line-height: 18px; font-weight:bold;}
+
+.main-r{ width: 300px; float: right;}
+.main-r-news-hot{ border: 1px solid #E1E0DC; padding:1px;}
+.hot-top{ height: 26px; background:url(../images/main-txt-a.more.png) repeat-x; padding-right: 15px;}
+.hot-top h3{ width:85px; font-weight:bold; background:url(../images/bg_hd_h4_.png) no-repeat right top; height: 26px; line-height: 26px; color:#fff; font-weight:bold; text-align: center; float: left;}
+.hot-top span{ float:right; width: 17px; height: 16px;  margin-top: 9px;text-align: center; cursor:pointer;}
+.hot-top span.day{ border: 1px solid #D3D3D3; border-bottom:0; background:#fff; color:#000; margin-right: 3px;}
+.hot-top span.week{ background:#D3D3D3; color:#fff; width: 19px; height: 17px; font-size:10px;}
+.main-r-news-hot ul{ padding: 5px 0 6px 0; background:url(../images/icon_num.png)no-repeat 5px 10px;}
+.main-r-news-hot ul li{ height: 22px; line-height:22px; padding-left: 26px; overflow:hidden;}
+.main-r-news-con{ border: 1px solid #E1E0DC; padding:1px;}
+.main-r-news-con .pic{ padding:10px 0 6px 9px;}
+.main-r-news-con .pic li{ float:left; height: 133px; text-align: center; width: 136px; margin-right: 7px;}
+.main-r-news-con .pic li img{ padding:2px; border: 1px solid #D1D1D1;}
+.main-r-news-con .txt{ padding:5px 0;}
+.main-r-news-con .txt li{ height: 20px; line-height: 20px; padding-left: 18px; background:url(../images/ul-02-li.png) no-repeat 10px center; overflow:hidden;}

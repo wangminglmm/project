@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*主体内容*/
+.main{ height:520px; background:#EBEBEB; padding-top:20px;}
+.main-bd{height:520px; background:url(../images/company.jpg) no-repeat 17px 0;}
+.main-bd .content{ width:505px; margin-left: 479px; padding-right: 16px;}
+.main-bd .content{ line-height:20px; color:#666666;}

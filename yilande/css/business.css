@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*主体内容*/
+.main{ height:520px; background:#EBEBEB; padding-top: 20px;}
+.main-bd{height:520px; padding:0 18px 0 17px;}
+.main-bd ul li{ height: 38px; line-height: 38px;  border-bottom: 1px dotted #D9D9D9;}
+.main-bd ul li a{ display:inline-block; line-height:38px;padding-left: 27px; background:url(../images/arrow.png) no-repeat 1px center;}
+.main-bd ul li span{ float:right;}

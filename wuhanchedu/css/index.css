@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*内容开始*/
+.main{ padding:16px 0 29px 0; }
+.main .notice{ height: 42px; background:url(../images/notice-bg_03.jpg) no-repeat; margin-bottom: 16px; }
+.main .notice h2{ line-height: 42px; float:left; padding-left: 16px; width: 224px; background:url(../images/notice-h2_03.jpg) no-repeat right center; color:#003366; font-size: 16px; font-family: "微软雅黑"; font-weight: bold; }
+.main .notice h2 span{ color:#d50000; font-size: 12px; margin-left: 4px; }
+.main .notice .notice-r{ float:right; width: 743px; height:36px; line-height: 36px; padding-top: 3px; overflow:hidden; }
+.main .notice .notice-r a{ display: block; width: 352px; height: 36px; float: left; font: normal 12px/36px ''; text-align: left; text-indent: 8px; background:url(../images/notice-a-bg_03.gif) no-repeat left center; }
+.main-l{ width: 330px; float:left;}
+.main-l .main-l-t{ margin-bottom: 13px;}
+.main-l .main-l-t ul{ padding:9px 14px 16px; border: 1px solid #d9d9d9; width: 400px; }
+.main-l .main-l-t ul li{ height: 26px; line-height: 26px; padding-left: 7px; background:url(../images/notice-a-bg_03.gif) no-repeat left center; } 
+.main-l .main-l-t ul li span{ float:right; }
+.main-l .main-l-t ul li img{display:inline-block;}
+.main-l .main-l-b .content{ padding:18px 14px 0; border: 1px solid #d9d9d9; width: 400px; font: 12px/24px "宋体"; height: 205px;}   
+.main-l .main-l-b .content img{display: inline-block; float:left; }
+.main-r{width: 555px; float:right;}
+.main-r .main-r-t{margin-bottom: 13px;}
+.main-r-b .left{width: 330px; float:left;}
+.main-r-b .left ul{padding:6px 14px 0; height:215px;border: 1px solid #d9d9d9;}
+.main-r-b .left ul li{ height: 26px; line-height: 26px; padding-left: 7px; background:url(../images/notice-a-bg_03.gif) no-repeat left center; } 
+.main-r-b .right{width: 210px; float:right;}
+.main-r-b .right ul{width: 208px; height: 221px; border: 1px solid #d9d9d9;padding:1px; background:url(../images/yygl_bg.png) no-repeat center center ;}
+.main-r-b .right ul li{float:left;width: 103px;height: 54px;}
+.main-r-b .right ul li a{ display: block;font: 12px/53px "宋体"; text-align: center;}

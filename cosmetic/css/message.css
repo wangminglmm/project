@@ -1,0 +1,32 @@
+/*主体开始*/
+.main{ background-color: #DDDDDD;}
+.main-bd{ background-color: #fff;  padding-bottom: 20px;}
+.main-l{ width: 210px; float: left;}
+.main-l h2{ height: 41px; background:url(../images/title.jpg); line-height: 41px;}
+.main-l h2 strong{ font-size: 14px; margin-left: 20px; float: left; color:#fff;}
+.main-l h2 a{ float: right; margin-right: 10px; height: 41px; text-indent: -100em; overflow: hidden; background:url(../images/more.png) no-repeat left center; width: 35px;}
+.main-l ul{ padding:5px 10px; border: 1px solid #DADADA; border-top: 0 none;}
+.main-l ul li{ height: 30px; line-height: 30px; background:url(../images/dot2.jpg) no-repeat left bottom; padding-left: 15px;}
+.main-l .product{ margin-bottom: 10px;}
+.main-l .product ul{ padding:5px 20px;}
+.main-l .product ul li{ padding-left: 20px;}
+.main-l .product ul li a{ font-weight: bold; display:block; height: 30px;}
+.main-l .contact ul li{ height: 23px; line-height: 23px; padding:0; background:none;}
+
+.main-r{ width: 765px; float: left; margin-left: 15px;}
+.main-r h2{ height: 41px; line-height: 41px; background:url(../images/menubg.jpg) repeat-x;}
+.main-r h2 strong{ font-size: 14px; margin-left: 31px; float: left; color:#fff;}
+.main-r .message-con{ border: 1px solid #DADADA; border-top: 0 none; padding-top: 9px;}
+.main-r .message-con .mb7{ height: 27px; margin-bottom: 7px;}
+.main-r .message-con .left{ float: left; width: 155px; text-align:right; line-height: 27px;}
+.main-r .message-con .right{ float: left; width: 410px; margin-left: 7px;}
+.main-r .message-con .right .txt{ width: 304px; height: 25px; border: 1px solid #CCCCCC; border-radius: 4px; padding-left: 4px;}
+.main-r .message-con .right textarea{ width: 404px; height: 208px; border: 1px solid #ccc; border-radius: 4px; resize:none; outline:none; padding-left: 4px;}
+.main-r .message-con .right p{ height: 34px; line-height: 34px;}
+.main-r .message-con .right .yzm{ width: 108px; float: left;}
+.main-r .message-con .right a.yzm{ display: inline-block; width: 78px; height: 22px; background:url(../images/yzm.png); float: left; margin:2px 0 0 4px;}
+.main-r .sub-btn{ width: 36px; height: 18px; border: 1px solid #ccc; background:#E4E4E4; border-radius: 2px; cursor:pointer; margin:21px 0 15px 161px;}
+
+.main-r .page{ height: 46px; line-height: 46px; text-align: center; font-family: '宋体';}
+.main-r .page a{ border: 1px solid #DDDDDD; padding:3px 6px; margin-right: 8px;color:#AAAAAA;font-family: '宋体';}
+.main-r .page a:hover{ border-color:#A0A0A0; color:#F96125;}

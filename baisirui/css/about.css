@@ -1,0 +1,14 @@
+/*内容展示区*/
+.main{padding-bottom: 10px;}
+.main-content{width: 623px; float:left; margin-top: 13px; padding-right: 17px; }
+.main-content p{ font:14px/25px "宋体"; color:#3F3F3F; text-indent:2em;}
+.main-pic{ float:left; padding-top: 2px;}
+/*尾部*/
+.footer{ padding-top:10px; border-top:1px solid #CCCCCC; margin-bottom:14px;}
+.footer .left{ float:left; width:250px; margin-right:280px;}
+.footer .right{ float:left; width:270px;}
+.footer .left a{ font:12px/22px "宋体"; color:#7F7F7F;} 
+.footer .left a:hover{ color:#317EF3;}
+.footer .left p{ font:12px/22px Arial, Helvetica, sans-serif;}
+.footer .left p span{ font-family:"宋体"; line-height:22px;}
+.footer .right p{ font:12px/22px "宋体";}

@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*主体内容*/
+.main{ background:#EBEBEB; padding:20px 0 20px 0;}
+.main-bd{ padding-left:17px; overflow:hidden; }
+.main-bd ul{ width:1020px;}
+.main-bd ul li{ float:left; width: 320px; height: 262px; margin-right: 20px; text-align: center; margin-bottom: 23px;}
+.main-bd ul li a{ line-height:22px;}

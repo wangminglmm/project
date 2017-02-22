@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form,img,input{ margin:0; padding:0; }
+h1, h2, h3, h4, h5, h6{ font-size:12px; font-weight:normal; }
+img{ display: block; border:0 none; }
+ul, ol { list-style:none; }
+input { font-family: "SimSun","宋体"; border:0 none; outline:none; }
+textarea { resize:none; }   /**/
+body { font-size:12px; color:#6B6B7F; }  /*正文的字体大小和颜色*/
+a { color:#333333; text-decoration:none; font-family:"宋体"; outline:none; }
+a:hover { color:#FF3300; text-decoration:underline; }
+.clearfix:after,.clearfix:before{ content:""; display:table; }
+.clearfix:after{ clear:both; }
+.clearfix{ zoom:1; }
+.w{ width:1000px; margin:0 auto; }/*版心类*/
+/*头部开始*/
+.header{ height: 60px;}
+.header h1{ float: left; width: 220px; height: 60px; border-left:1px solid #EBEBEB; background:url(../images/logo.png) no-repeat center 6px; border-right:1px solid #EBEBEB; text-indent:-100em; overflow:hidden;}
+.header ul{ float:right;}
+.header ul li{ float:left; border-left:1px solid #FAFAFA; border-right:1px solid #FAFAFA;}
+.header ul li:hover{ border-color:#EBEBEB;}
+.header ul li a{ font:16px/60px "微软雅黑"; padding:0 40px; display:inline-block; color:#6C6C6C; font-weight:bold;}
+.header ul li a:hover{ text-decoration:none;}
+
+/*子导航开始*/
+.nav{ height: 60px; background:#F23F26;}
+.nav h2{ line-height: 60px; font-size:18px; font-family:"微软雅黑"; float:left;padding-left: 21px; color:#fff; font-weight:bold;}
+.nav ul{ float: right; width: 288px; height: 48px; padding-top:12px;}
+.nav ul li{ float:left; width: 91px; height: 36px; margin-left:5px;}
+.nav ul li a{ display: block; height: 36px; line-height:36px; font-size:14px; font-family:"宋体"; text-align: center; color:#fff; background:url(../images/indexboreder.png) no-repeat;}
+
+/*footer开始*/
+.footer{ height: 65px; line-height:65px; text-align: center;}
+

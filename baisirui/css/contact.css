@@ -1,0 +1,8 @@
+/*内容展示区*/
+.main{padding: 14px 0 20px 0;}
+.main-content{width: 458px; float:left; margin-top: 13px;  color:#3F3F3F;}
+.main-content h2{ font:20px/37px "微软雅黑";}
+.main-content p{ font:14px/25px "宋体";}
+.main-content h3{ font:20px/49px "微软雅黑";}
+.main-content h4{ font:bold 14px/24px "宋体";}
+#site-map{ float:left; width: 540px; height:410px; border: 1px solid #ccc;}

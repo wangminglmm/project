@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form,img,input{ margin:0; padding:0; }
+h1, h2, h3, h4, h5, h6{ font-size:12px; font-weight:normal;}
+img{display: block; border:0 none;}
+ul, ol { list-style:none; }
+input {  font-family: "SimSun","宋体"; border:0 none; outline:none;}
+textarea { resize:none; }   /**/
+body {font-size:12px; color:#666;}  /*正文的字体大小和颜色*/
+a { color:#333; text-decoration:none; font-family:"微软雅黑";}
+a:hover { color:#666; text-decoration:none; }
+.current a{ color:#317EF3;}
+.clearfix:after,.clearfix:before{ content:""; display:table;}
+.clearfix:after{ clear:both;}
+.clearfix{ zoom:1;}
+.w{ width:1000px; margin:0 auto;}/*版心类*/
+/*头部开始*/
+.header{ height:104px; padding-top:15px;}
+.header h1{ float:left; margin-right:230px; width:171px;}
+.header ul{ list-style:none; width:479px; float:left;}
+.header ul li{ float:left;}
+.header ul li a{ font-size:22px; font-family:"微软雅黑"; display:inline-block; padding:7px 37px 0; height:53px;}
+.header ul li a:hover{ color:#317EF3;}
+.header-r{ float:right;}
+.header-r a{ display:block; line-height:21px;}
+.header-r a:hover{ text-decoration:underline; color:#317EF3;}
+.case{ background:url(../images/case.png) repeat-x; margin-bottom:28px;}
+.case span{ display:block; width:78px; height:14px; background:#fff; margin:0 auto; text-align:center;}
+
+
+
+/*尾部*/
+.footer{ padding-top:10px; border-top:1px solid #CCCCCC; margin-bottom:14px;}
+.footer .left{ float:left; width:250px; margin-right:280px;}
+.footer .right{ float:left; width:270px;}
+.footer .left a{ font:12px/22px "宋体"; color:#7F7F7F;} 
+.footer .left a:hover{ color:#317EF3;}
+.footer .left p{ font:12px/22px Arial, Helvetica, sans-serif;}
+.footer .left p span{ font-family:"宋体"; line-height:22px;}
+.footer .right p{ font:12px/22px "宋体";}

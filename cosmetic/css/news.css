@@ -1,0 +1,24 @@
+/*主体开始*/
+.main{ background-color: #DDDDDD;}
+.main-bd{ background-color: #fff;  padding-bottom: 5px;}
+.main-l{ width: 210px; float: left;}
+.main-l h2{ height: 41px; background:url(../images/title.jpg); line-height: 41px;}
+.main-l h2 strong{ font-size: 14px; margin-left: 20px; float: left; color:#fff;}
+.main-l h2 a{ float: right; margin-right: 10px; height: 41px; text-indent: -100em; overflow: hidden; background:url(../images/more.png) no-repeat left center; width: 35px;}
+.main-l ul{ padding:5px 10px; border: 1px solid #DADADA; border-top: 0 none;}
+.main-l ul li{ height: 30px; line-height: 30px; background:url(../images/dot2.jpg) no-repeat left bottom; padding-left: 15px;}
+.main-l .product{ margin-bottom: 10px;}
+.main-l .product ul{ padding:5px 20px;}
+.main-l .product ul li{ padding-left: 20px;}
+.main-l .product ul li a{ font-weight: bold; display:block; height: 30px;}
+.main-l .contact ul li{ height: 23px; line-height: 23px; padding:0; background:none;}
+
+.main-r{ width: 765px; float: left; margin-left: 15px;}
+.main-r h2{ height: 41px; line-height: 41px; background:url(../images/menubg.jpg) repeat-x;}
+.main-r h2 strong{ font-size: 14px; margin-left: 31px; float: left; color:#fff;}
+.main-r ul{ padding:5px 10px 5px 35px; border: 1px solid #DADADA; border-top: 0 none; line-height: 34px;}
+.main-r ul li{ height: 34px;}
+.main-r ul li span{ float: right;}
+.main-r .page{ height: 46px; line-height: 46px; text-align: center; font-family: '宋体';}
+.main-r .page a{ border: 1px solid #DDDDDD; padding:3px 6px; margin-right: 8px; color:#AAAAAA;font-family: '宋体';}
+.main-r .page a:hover{ border-color:#A0A0A0;}

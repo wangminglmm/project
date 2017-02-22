@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+a{text-decoration:none; outline:none;}
+a.hidefocus{}
+img,a img{ border:0;}
+li{ list-style:none;}
+.clear{ clear:both;}
+#head{ background:#f5f3f4;}
+.top{ width:1000px; margin:0 auto;}
+h1{ float:left;}
+.top .search{ float:right;}
+.top .search .search_box{ border:1px solid #ccc; margin-top:6px; background:#fff; float:left}
+.top .search form .txt{border:0; height:24px; float:left; line-height:24px; outline:none; color:#ccc; font-size:12px;}
+.top .search form .search_btn{border:0; width:24px; height:24px; background:#666; cursor:pointer;color:#fff; float:left;}
+.top .search .search_r{ margin-top:6px; float:left;}
+.top .search .search_r a{ display:block; width:75px; height:25px; text-align:center; font-family:'微软雅黑'; line-height:25px; color:#666; font-size:12px;}
+.top .search .search_r a:hover{ background:#832126; color:#fff;}
+/*导航*/
+.nav{ clear:both; padding-top:20px;}
+.nav ul li.fd{ list-style:none; float:left; margin-right:1px; position:relative;}
+.nav ul li a.pd{ padding:0 35px;}
+.nav ul li a { display:block; color:#999;font:16px/40px "微软雅黑";}
+.nav .active{ background:#94252a; color:#fff;}
+.nav ul li a:hover{ background:#94252a; color:#fff;}
+.nav ul li ul.wd{ display:none; background:#000; width:100%; position:absolute; text-align:center; z-index:9999;}
+.nav ul li ul.wd a{ display:block; text-align:center;}
+.nav_bottom{ border:2px solid #94252a;}
+
+/*banner部分*/
+.main{ width:100%;}
+.main .banner{ overflow:hidden; position:relative; height:309px;}
+.main .banner ul{ width:1000%; position:absolute; left:0;}
+.main .banner ul img{ width:1366px;}
+.main .banner ul li{ float:left;}
+.main .banner ol{ position:absolute; left:50%; bottom:15px;}
+.main .banner ol li{ float:left; width:12px; height:12px; background:url(images/dian.png); background-position:-12px 0; margin-left:18px; cursor:pointer;}
+.main .banner ol li.active{ background-position:0 0;}
+.main .banner .left{ display:block; width:24px; height:34px; background:url(images/left.png); position:absolute; margin-top:-17px; top:50%; left:14px; cursor:pointer;}
+.main .banner .right{ display:block; width:24px; height:34px; background:url(images/right.png); position:absolute; margin-top:-17px; top:50%; right:14px; cursor:pointer;}
+.main .banner_b{ border:3px solid #94252a; margin-top:-3px;}
+
+
+.footer{ width:1000px; margin:0 auto;}
+.footer .copyright{ float:right; font-size:12px; margin-top:8px; margin-bottom:25px;}
+.footer .copyright span{ font-family:Arial, Helvetica, sans-serif;}
+.footer .join{ float:left;}
+.footer .new{ margin:0 20px 0;}
+.footer .join .ax{ width:320px;}
+.footer .join .ax .border{ border-bottom:3px solid #666; padding-bottom:10px; padding-left:12px; margin-bottom:10px;}
+.footer .join .ax strong{ font-size:12px; color:#333;}
+.footer .join .more{ display:inline-block; width:32px; height:12px; border-radius:2px; background:#696768; line-height:12px; float:right; font-size:10px; color:#fff; text-align:center;}
+.footer .join .more:hover{ color:#F40;}
